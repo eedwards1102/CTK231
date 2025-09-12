@@ -1,0 +1,47 @@
+h1{
+    font-weight: normal;
+    font-size: 16px;
+}
+.imagestyle{
+    border:2px solid red;
+    background-color: blue;
+    padding: 10px;
+    margin:  20px;
+}
+.specialfont1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;}
+.specialfont2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 12px;
+}
+.boxmodel{
+    border: 2px solid #0000ff;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
+    color: #0000ff;
+    background-color: green;
+}
+.zeroout{
+padding: 0;
+margin: 0;
+width: 100px;
+border: 2px solid black;
+}
+.alignleft{
+text-align: left;
+letter-spacing: 20px;
+}
+.alignright{
+    text-align: right;
+}
+.centertext{
+    text-align: center;
+    line-height: 48px
+}
+.justify{
+    text-align: justify;
+}
