@@ -1,0 +1,38 @@
+h1{
+    border-bottom: 5px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 40px;;
+}   
+nav li{
+    display: inline-block;
+    width: 150px;
+}
+nav li a{
+    display: block;
+    ;background: linear-gradient(steelblue, skyblue);
+}
+nav li a:hover{
+    background: linear-gradient(slateblue, mediumpurple);
+}
+img{
+    display: block;
+    margin-bottom: 20px;;
+}
+.topborder{
+    border-top: 1px solid black;
+}
+.bottomborder{
+border-bottom: 1px solid black;
+}
+.leftborder{
+    border-left: 1px solid black;
+}
+.rightborder{
+    border-right: 1px solid black;
+}
+.specialstyle{
+ border-top: 5px solid skyblue;   
+ border-bottom: 8px solid green;
+ border-left: 2px solid cornsilk
+ border-right: 5px solid indigo;
+}
