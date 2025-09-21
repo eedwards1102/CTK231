@@ -10,6 +10,7 @@ h1{
 }
 nav li {
     display: inline-block;
+    margin: 15px 0px;
 }
 nav li a{
     background-color: darkblue;
@@ -57,4 +58,5 @@ footer{
 .specialbackground{
     background-color: white;
     padding: 15px;
+    margin-bottom: 15px;;
 }
