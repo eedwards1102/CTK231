@@ -4,7 +4,6 @@ body {
 #wrapper {
   margin: 24px auto;
   width: 1200px;
-  padding: 24px;
   background-color: #ffffff;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
