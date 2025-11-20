@@ -1,0 +1,114 @@
+html{
+padding: 0;
+margin: 0;
+}
+body {
+  background-color: #999999;
+  padding: 0;
+  margin: 0;
+}
+#wrapper {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+nav {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 2;
+  background-color: #f8de87;;
+}
+nav li{
+  list-style-type: none;
+  margin: 10px 0;
+}
+nav li a{
+  text-decoration: none;
+  color:black;
+  transition: all 0.5s;
+  font-size: larger;
+}
+nav li a:hover{
+  color:red;
+}
+h1{
+  background-color: black;
+  color:white;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  font-family: "Alfa Slab One", serif;
+}
+main{
+margin: 0;
+padding: 0;
+}
+h2{
+  text-align: center;
+    font-family: "Alfa Slab One", serif;
+}
+.frontprofile{
+width: 250px;
+margin: 0 auto;
+display: block;
+box-shadow: 10px 10px 2px #00000090;
+border-radius: 2px;
+}
+main {
+  grid-column: 4 / span 9;
+  grid-row: 1;
+}
+footer {
+  grid-column: 4 / span 9;
+  grid-row: 2;
+  color:white;
+  background-color: black;
+  text-align: center;
+  padding: 0 10px 20px;
+}
+footer a{
+  margin:0px 20px;
+  text-decoration: none;
+  color:lightskyblue;
+  transition:all 0.5s;
+}
+footer a:hover{
+  color: red;
+}
+.frontparagraph{
+  padding: 10px;
+  font-size: larger;
+  line-height: 40px;
+  width: 60%;
+  margin: 20px auto;
+}
+.alfa-slab-one-regular {  font-family: "Alfa Slab One", serif;  font-weight: 400;  font-style: normal; }
+.mainResume{
+  margin: 0 auto;
+  width: 60%;
+  line-height: 25px;
+}
+.mainResume h2{
+  margin-top: 30px;
+}
+.contactinfo{
+  width: 50%;
+  margin: 5px auto 30px;
+}
+.center{
+  text-align: center;
+}
+.center a{
+  text-align: center;
+}
+.contactinfo p{
+  width: 80%;
+  margin: 0 auto;
+}
+.boldcontent{
+  font-weight: bold;
+}
+.mainResume h3{
+  font-size: 20px;
+}
