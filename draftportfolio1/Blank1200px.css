@@ -84,12 +84,12 @@ footer a:hover{
   margin: 20px auto;
 }
 .alfa-slab-one-regular {  font-family: "Alfa Slab One", serif;  font-weight: 400;  font-style: normal; }
-.mainResume{
+.mainresume{
   margin: 0 auto;
   width: 60%;
   line-height: 25px;
 }
-.mainResume h2{
+.mainresume h2{
   margin-top: 30px;
 }
 .contactinfo{
@@ -109,6 +109,6 @@ footer a:hover{
 .boldcontent{
   font-weight: bold;
 }
-.mainResume h3{
+.mainresume h3{
   font-size: 20px;
 }
