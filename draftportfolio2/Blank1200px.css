@@ -1,0 +1,234 @@
+html{
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #999999;
+  padding: 0;
+  margin: 0;
+}
+#wrapper {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  min-height: 100vh;
+  grid-template-rows: 1fr auto;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 25%;
+  background-color: #f8de87;
+  padding-top: 20px;
+}
+nav ul{
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  list-style-type: none;
+  margin: 10px auto;
+  width: 280px;
+}
+nav li a {
+  display: block;
+  padding: 15px 10px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+  border: 3px solid transparent;
+  border-radius: 2px;
+  transition: all 0.35s;
+  text-align: center;
+}
+nav li a:hover{
+  background-color: darkred;
+  border: 3px solid #ffffff;
+}
+nav li a:hover{
+  color: white;
+}
+h1{
+  background-color: black;
+  color:white;
+  margin: 0;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: "Alfa Slab One", serif;
+}
+main{
+  margin: 0;
+  padding: 0;
+}
+h2{
+  text-align: center;
+  font-family: "Alfa Slab One", serif;
+}
+.frontprofile{
+  width: 250px;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 10px 10px 2px #00000050;
+  border-radius: 2px;
+}
+main {
+  grid-column: 4 / span 9;
+  grid-row: 1;
+}
+footer {
+  grid-column: 4 / span 9;
+  grid-row: 2;
+  color:white;
+  background-color: black;
+  text-align: center;
+  padding: 0 10px 20px;
+  margin-top: 10px;
+}
+footer a{
+  margin:0px 20px;
+  text-decoration: none;
+  color:lightskyblue;
+  transition:all 0.5s;
+}
+footer a:hover{
+  color: red;
+}
+.alfa-slab-one-regular {  
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;  
+  font-style: normal;
+}
+.mainresume{
+  margin: 0 auto;
+  width: 60%;
+  line-height: 25px;
+}
+.mainresume h2{
+  margin-top: 30px;
+}
+.mainresume a{
+  text-decoration: none;
+  transition:all 0.5s;
+}
+.mainresume a:hover{
+  color: red;
+}
+.contactinfo{
+  width: 50%;
+  margin: 5px auto 30px;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 15px 0px;
+  box-shadow: 5px 5px 2px #00000050;
+  font-size: larger;
+}
+.center{
+  text-align: center;
+}
+.center a{
+  text-align: center;
+}
+.contactinfo p{
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+.boldcontent{
+  font-weight: bold;
+}
+.mainresume h3{
+  font-size: 20px;
+}
+.mainabout{
+  width: 70%;
+  margin: 0 auto;
+  line-height: 25px;
+}
+.mainabout ul{
+  font-size: larger;
+  line-height: 40px;
+  border: 1px solid black;
+  border-radius: 2px;
+  width: 70%;
+  padding: 20px 10px 20px 40px;
+  margin: 0 auto 30px auto;
+  box-shadow: 5px 5px 2px #00000050;
+}
+.aboutprofile{
+  margin: 30px auto 45px;
+}
+.frontparagraph{
+  padding: 10px;
+  font-size: larger;
+  line-height: 40px;
+  width: 50%;
+  margin: 30px auto;
+  padding: 20px 10px 20px 40px;
+  border: 1px solid black;
+  border-radius: 2px;
+  box-shadow: 5px 5px 2px #00000050;
+}
+.mainworks{
+  width: 70%;
+  margin: 0 auto;
+  line-height: 25px;
+}
+.mainworks h2{
+  margin-top: 25px;
+}
+.mainworks a{
+  text-decoration: none;
+  transition:all 0.5s;
+}
+.mainworks a:hover{
+  color: red;
+}
+.mainworks ul{
+  width: 70%;
+  margin: 0 auto;
+}
+.workslink{
+  width: fit-content;
+  border: 1px solid black;
+  border-radius: 2px;
+  box-shadow: 5px 5px 2px #00000050;
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+  text-align: center;
+}
+.mainshortcut{
+  width: 70%;
+  margin: 0 auto;
+  line-height: 25px;
+}
+.shortcutlink{
+  width: fit-content;
+  border: 1px solid black;
+  border-radius: 2px;
+  box-shadow: 5px 5px 2px #00000050;
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+}
+.shortcut{
+  padding: 10px;
+  font-size: larger;
+  line-height: 40px;
+  width: 50%;
+  margin: 30px auto;
+  padding: 20px 10px 20px 40px;
+  border: 1px solid black;
+  border-radius: 2px;
+  box-shadow: 5px 5px 2px #00000050;
+}
+.worksparagraph{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 18px;
+}
