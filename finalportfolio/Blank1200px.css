@@ -31,29 +31,32 @@ nav ul{
 }
 nav li {
   list-style-type: none;
-  margin: 10px auto;
-  width: 280px;
+  margin: 16px auto;
+  width: 80%;
 }
 nav li a {
   display: block;
   padding: 15px 10px;
-  background-color: black;
-  color: white;
+  background-color: #21180f;
+  color: #be7d54;
   text-decoration: none;
   font-size: larger;
   border: 3px solid transparent;
-  border-radius: 2px;
+  border-radius: 4px;
   transition: all 0.35s;
   text-align: center;
+  font-family: "Alfa Slab One", serif;
+  font-size: 20px;
+  letter-spacing: 0.05em;
 }
 nav li a:hover{
-  background-color: darkred;
+  background-color: #a45c30;
   border: 3px solid #ffffff;
   color: white;
 }
 h1{
-  background-color: black;
-  color:white;
+  background-color: #21180f;
+  color: #be7d54;
   margin: 0;
   padding: 30px 20px;
   text-align: center;
@@ -85,8 +88,8 @@ h2{
   width: 250px;
   margin: 0 auto;
   display: block;
-  box-shadow: 10px 10px 2px #00000050;
-  border-radius: 2px;
+  box-shadow: 10px 10px 2px #784a0070;
+  border-radius: 4px;
 }
 main {
   grid-column: 4 / span 9;
@@ -96,7 +99,7 @@ footer {
   grid-column: 4 / span 9;
   grid-row: 2;
   color:white;
-  background-color: black;
+  background-color: #21180f;
   text-align: center;
   padding: 0 10px 20px;
   margin-top: 30px;
@@ -104,11 +107,14 @@ footer {
 footer a{
   margin:0px 20px;
   text-decoration: none;
-  color:lightskyblue;
-  transition:all 0.5s;
+  color: #ffedb0;
+  transition:all 0.35s;
 }
 footer a:hover{
   color: red;
+}
+footer h2{
+  color: #be7d54;
 }
 .alfa-slab-one-regular {  
   font-family: "Alfa Slab One", serif;
@@ -119,10 +125,12 @@ footer a:hover{
   margin: 0 auto;
   width: 60%;
   line-height: 25px;
+  margin-top: 25px;
 }
 .mainresume a{
   text-decoration: none;
-  transition:all 0.5s;
+  color: #a45c30;
+  transition:all 0.35s;
 }
 .mainresume a:hover{
   color: red;
@@ -131,16 +139,22 @@ footer a:hover{
   width: 50%;
   margin: 5px auto 30px;
   border: 1px solid black;
-  border-radius: 2px;
+  border-radius: 4px;
   padding: 15px 0px;
-  box-shadow: 5px 5px 2px #00000050;
+  box-shadow: 5px 5px 2px #784a0070;
   font-size: larger;
 }
 .center{
   text-align: center;
+  margin: 0; padding: 0;
 }
 .center a{
   text-align: center;
+  color: #a45c30;
+  transition: all 0.35s;
+}
+.center a:hover{
+  color: red;
 }
 .contactinfo p{
   width: 80%;
@@ -149,6 +163,7 @@ footer a:hover{
 }
 .boldcontent{
   font-weight: bold;
+  margin-top: 10px;
 }
 .mainabout{
   width: 70%;
@@ -159,14 +174,16 @@ footer a:hover{
   font-size: larger;
   line-height: 40px;
   border: 1px solid black;
-  border-radius: 2px;
+  border-radius: 4px;
   width: 70%;
   padding: 20px 10px 20px 40px;
   margin: 0 auto 80px auto;
-  box-shadow: 5px 5px 2px #00000050;
+  box-shadow: 5px 5px 2px #784a0070;
 }
 .aboutprofile{
   margin: 30px auto 45px;
+  width: 250px;
+  max-height: 450px;
 }
 .frontparagraph{
   padding: 10px;
@@ -176,20 +193,22 @@ footer a:hover{
   margin: 30px auto;
   padding: 20px 10px 20px 40px;
   border: 1px solid black;
-  border-radius: 2px;
-  box-shadow: 5px 5px 2px #00000050;
+  border-radius: 4px;
+  box-shadow: 5px 5px 2px #784a0070;
 }
 .mainworks{
   width: 70%;
   margin: 0 auto;
   line-height: 25px;
+  margin-top: 25px;
 }
 .mainworks h2{
   margin-top: 25px;
 }
 .mainworks a{
   text-decoration: none;
-  transition:all 0.5s;
+  color: #a45c30;
+  transition:all 0.35s;
 }
 .mainworks a:hover{
   color: red;
@@ -201,8 +220,8 @@ footer a:hover{
 .workslink{
   width: fit-content;
   border: 1px solid black;
-  border-radius: 2px;
-  box-shadow: 5px 5px 2px #00000050;
+  border-radius: 4px;
+  box-shadow: 5px 5px 2px #784a0070;
   padding: 10px;
   margin: 10px auto;
   display: block;
@@ -216,8 +235,8 @@ footer a:hover{
 .shortcutlink{
   width: fit-content;
   border: 1px solid black;
-  border-radius: 2px;
-  box-shadow: 5px 5px 2px #00000050;
+  border-radius: 4px;
+  box-shadow: 5px 5px 2px #784a0070;
   padding: 10px;
   margin: 10px auto;
   display: block;
@@ -230,8 +249,8 @@ footer a:hover{
   margin: 30px auto;
   padding: 20px 10px 20px 40px;
   border: 1px solid black;
-  border-radius: 2px;
-  box-shadow: 5px 5px 2px #00000050;
+  border-radius: 4px;
+  box-shadow: 5px 5px 2px #784a0070;
 }
 .worksparagraph{
   width: 50%;
@@ -242,7 +261,7 @@ footer a:hover{
   position: absolute;
   top: -100px;
   left: 0;
-  background-color: black;
+  background-color: #21180f;
   color: white;
   padding: 15px 20px;
   z-index: 1000;
@@ -250,18 +269,20 @@ footer a:hover{
   font-family: "Alfa Slab One", serif;
   font-size: 1rem;
   border-bottom-right-radius: 4px;
-  transition: top 0.3s ease;
+  transition: top 0.35s ease;
 }
 .skip-link:focus {
   top: 0;
   outline: 3px solid white;
-  color: #f8de87;
+  outline-offset: 0;
+  color: #be7d54;
 }
 h3{
   font-family: "Alfa Slab One", serif;
   font-size: 20px;
   letter-spacing: 0.1em;
   margin-top: 30px;
+  margin-bottom: 0;
 }
 .mainresume h2{
   margin-top: 70px;
@@ -273,7 +294,8 @@ h3{
   margin-top: 30px !important;
 }
 nav li a[aria-current="page"]{
-  background-color: darkred;
+  background-color: #a45c30;
+  color: white;
   border: 3px solid #ffffff;
 }
 .sr-only{
@@ -288,8 +310,13 @@ nav li a[aria-current="page"]{
   border: 0;
 }
 nav li a:focus {
-  background-color: darkred;
+  background-color: #a45c30;
   border: 3px solid #ffffff;
   color: white;
   outline: none;
+}
+
+::selection{
+  background-color: #a45c30;
+  color: white;
 }
